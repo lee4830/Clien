@@ -10,5 +10,9 @@ class CommonDefine {
         val DELAY_RUN = 50L
         @JvmStatic
         val DELAY_RUN_100 = 100L
+        @JvmStatic
+        val DELAY_RUN_500 = 500L
+        @JvmStatic
+        val DELAY_RUN_1500 = 1500L
     }
 }

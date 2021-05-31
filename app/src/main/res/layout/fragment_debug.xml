@@ -2,9 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        style="@style/Style_COMMON_TextView"
         android:scrollbars="vertical"
         android:id="@+id/testText"
         android:text="Debug"
@@ -15,7 +17,17 @@
         android:layout_width="0dp"
         android:layout_height="200dp"/>
 
+    <EditText
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/testText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/testEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
     <Button
+        style="@style/Style_COMMON_Button_Text"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/testText"
@@ -25,6 +37,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        style="@style/Style_COMMON_Button_Text"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/testButton"
@@ -35,6 +48,7 @@
 
 
     <Button
+        style="@style/Style_COMMON_Button_Text"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/testButton2"

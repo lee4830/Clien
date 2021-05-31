@@ -1,0 +1,5 @@
+{"version":"1.0.0",
+  "base_url": "https://m.clien.net/service",
+  "login_url": "https://m.clien.net/service/login",
+  "root_url": "https://m.clien.net/service/group/clien_all"
+}
